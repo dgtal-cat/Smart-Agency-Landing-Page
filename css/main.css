@@ -163,7 +163,7 @@ li.main-menu-active a, .main-menu li a:hover {
 }
 .header-text-grey {
 	color: #6b6b6b;
-	}
+}
 .header-text h2 {
 	font-size: 50px;
 	margin-bottom: 35px;
@@ -265,6 +265,7 @@ li.main-menu-active a, .main-menu li a:hover {
 }
 
 .wp-button {
+	display: inline-block;
 	width: 230px;
 	height: 54px;
 	background-color: #fff;
@@ -277,6 +278,8 @@ li.main-menu-active a, .main-menu li a:hover {
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
+	text-align: center;
+	line-height: 54px;
 }
 .wp-button:hover {
 	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
@@ -308,7 +311,7 @@ li.main-menu-active a, .main-menu li a:hover {
 	font-family: "Open Sans";
 	font-size: 15px;
 	font-weight: 300;
-	padding: 25px;
+	padding: 27px;
 	color: #fff;
 	line-height: 22px;
 }
