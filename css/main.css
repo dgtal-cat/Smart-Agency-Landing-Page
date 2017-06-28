@@ -348,6 +348,7 @@ li.main-menu-active a, .main-menu li a:hover {
 	background-color: #fbfbfb;
 	margin-bottom: 5px;
 	text-align: center;
+	cursor: pointer;
 }
 .swp-switcher-item:hover {
 	background-color: #fff;
@@ -411,4 +412,29 @@ li.main-menu-active a, .main-menu li a:hover {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	line-height: 25px;
+}
+
+@media (max-width: 1170px)  {
+	.wp-single-block {
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+	.send-message {display: block; margin: 0 auto;}
+	.swp-switcher {display: block; margin: 0 auto; width: 80%;}
+	.swp-switcher-item {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    vertical-align: top;
+}
+.swp-switcher-list {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+
 }
