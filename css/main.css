@@ -3,7 +3,7 @@ body {
 }
 
 
-		/* -------------- CSS CLEANERS -------------- */
+/* -------------- CSS CLEANERS -------------- */
 
 .clearfix:after {
 	content: '';
@@ -15,34 +15,34 @@ body {
 	font-size: 0;
 }
 
-		/* -------------- WRAPPER -------------- */
+/* -------------- WRAPPER -------------- */
 
 .content-wrapper {
 	width: 1170px;
 	margin: 0 auto;
 }
 
-		/* -------------- LOGO -------------- */
+/* -------------- LOGO -------------- */
 
 .logo {
-    display: block;
-    float: left;
+	display: block;
+	float: left;
 
 }
 .logo a {
-    display: block;
-    width: 150px;
-    height: 55px;
-    font-size: 38px;
-    color: #494949;
-    text-decoration: none;
-    text-align: center;
-    line-height: 47px;
-    box-sizing: border-box;
-    border: 4px solid #706b73;
+	display: block;
+	width: 150px;
+	height: 55px;
+	font-size: 38px;
+	color: #494949;
+	text-decoration: none;
+	text-align: center;
+	line-height: 47px;
+	box-sizing: border-box;
+	border: 4px solid #706b73;
 }
 
-		/* -------------- SEARCH BLOCK -------------- */
+/* -------------- SEARCH BLOCK -------------- */
 
 .search {
 	display: block;
@@ -78,7 +78,7 @@ body {
 	font-family: 'Oswald';
 }
 
-		/* -------------- MAIN MENU BLOCK -------------- */
+/* -------------- MAIN MENU BLOCK -------------- */
 
 .main-menu {
 	display: block;
@@ -113,8 +113,8 @@ body {
 	background-color: #f3f3f3;
 }
 li.main-menu-active a, .main-menu li a:hover {
-background-color: #29c5e6;
-color: white;
+	background-color: #29c5e6;
+	color: white;
 }
 
 .grey-big-container {
@@ -159,8 +159,11 @@ color: white;
 	padding-top: 145px;
 	padding-bottom: 110px;
 	text-align: center;
-	color: #6b6b6b;
+	color: #000;
 }
+.header-text-grey {
+	color: #6b6b6b;
+	}
 .header-text h2 {
 	font-size: 50px;
 	margin-bottom: 35px;
@@ -174,14 +177,14 @@ color: white;
 	line-height: 25px;
 }
 .send-message {
-    display: inline-block;
-    width: 375px;
-    height: 385px;
-    background-color: white;
-    padding: 20px 40px;
-    margin: 0;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+	display: inline-block;
+	width: 375px;
+	height: 385px;
+	background-color: white;
+	padding: 20px 40px;
+	margin: 0;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
 }
 .send-message h3 {
 	display: block;
@@ -236,17 +239,17 @@ color: white;
 }
 
 .wp-single-block {
-    display: inline-block;
-    width: 21%;
-    margin: 0 2% 0 2%;
-    text-align: center;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
-    height: 264px;
+	display: inline-block;
+	width: 21%;
+	margin: 0 2% 0 2%;
+	text-align: center;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+	height: 264px;
 }
 
 .wp-single-block:hover {
-		box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
-	}
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+}
 
 .color-sky {
 	background-color: #4eb2f7;
@@ -276,8 +279,8 @@ color: white;
 	cursor: pointer;
 }
 .wp-button:hover {
-		box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
-	}
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+}
 
 .wp-block-img {
 	display: inline-block;
@@ -331,4 +334,74 @@ color: white;
 	background-color: #ff5c36;
 }
 
+.swp-switcher-item {
+	display: block;
+	width: 98px;
+	height: 92px;
+	background-color: #fbfbfb;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.swp-switcher-item:hover {
+	background-color: #fff;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+}
+.swp-switcher-item img{
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
+}
 
+.swp-switcher-list {
+	display: block;
+}
+.swp-switcher {
+	display: inline-block;
+	width: 10%;
+	margin: 0 15px 0 15px;
+}
+.swp-slider {
+	display: inline-block;
+	width: 80%;
+	padding-left: 30px;
+	padding-right: 30px;
+	vertical-align: top;
+}
+.swp-article-header {
+	font-weight: 300;
+	font-family: "Open Sans";
+	font-size: 30px;
+	text-transform: capitalize;
+	
+}
+.swp-article-header:after {
+	content: '';
+	display: block;
+	border: 1px solid #ff5c36;
+	width: 60px;
+	margin-top: 15px;
+}
+.swp-slide-article {
+	vertical-align: top;
+	display: inline-block;
+	width: 63%;
+	padding-left: 50px;
+	padding-right: 25px;
+	box-sizing: border-box;
+	text-align: justify;
+}
+.swp-slide-img {
+	display: inline-block;
+	margin-left: 10%;
+	width: 27%;
+}
+.swp-slide-article p{
+	display: inline-block;
+	font-weight: 300;
+	font-family: "Open Sans";
+	font-size: 16px;
+	color: #000;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	line-height: 25px;
+}
